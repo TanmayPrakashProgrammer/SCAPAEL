@@ -10,18 +10,19 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained('bert-base-uncased')
 model.eval() # Set model to evaluation mode
 
-def get_sentence_embedding(sentence):
-    # Return a zero vector for very short/empty sentences to avoid BERT processing errors
-    if not sentence or len(sentence.strip()) < 2: # Arbitrary min length for meaningful embedding
-        return np.zeros(model.config.hidden_size)
-
-    inputs = tokenizer(sentence, return_tensors='pt', truncation=True, padding=True)
-    with torch.no_grad():
-        outputs = model(**inputs)
-    # Use the mean of the last hidden state as the sentence embedding
-    return outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
 
 def Abstraction(data):
+    def get_sentence_embedding(sentence):
+    # Return a zero vector for very short/empty sentences to avoid BERT processing errors
+        if not sentence or len(sentence.strip()) < 2: # Arbitrary min length for meaningful embedding
+            return np.zeros(model.config.hidden_size)
+
+        inputs = tokenizer(sentence, return_tensors='pt', truncation=True, padding=True)
+        with torch.no_grad():
+            outputs = model(**inputs)
+    # Use the mean of the last hidden state as the sentence embedding
+        return outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
+
     # Ensure data is a string and handle very short inputs to guarantee `len(Output) < len(data)`
     data = str(data).strip()
     if len(data) <= 1:

@@ -24,3 +24,10 @@ Server file handle the system in the backend the Python APIs are helping our pro
 
 We are Using **GROK** , **BERT** and *A very little machine learning*
 
+
+___
+Dhanajay Has made the Abstraction Function 
+
+Its Implement the 120 TestCases in 50 seconds
+Hence 0.4 second per Request
+
