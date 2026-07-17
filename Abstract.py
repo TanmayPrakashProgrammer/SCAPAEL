@@ -1,16 +1,21 @@
 import time
 from Abstract_Test_Cases import TestCases
 #Here You will Import the Files Regarding BERT
+import subprocess
+import platform
+
+if platform.system() == "Windows":
+    subprocess.run(["cls"], shell=True)
+else:
+    subprocess.run(["clear"])
+
 
 
 
 #_____________________Write the Funtion Here
 def Abstraction(data):
     Output = ""
-    a = 0
-    for i in range(1,1000):
-        a = a+1
-
+    #Write here the Codes and Run it
     return Output
 
 
