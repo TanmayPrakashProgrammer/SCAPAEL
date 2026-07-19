@@ -11,12 +11,13 @@ We have observed this pattern, and we specifically want to save tokens, improve 
 
 > **Transform vague software ideas to complete, validated, AI-ready engineering specifications.**
 
+Introducing **Scalpel**
 Scalpel is a compiler-inspired AI platform which bridges the gap between human intent and AI code generation. Instead of rewriting prompts, Scalpel analyzes the user's intent, extracts the relevant requirements, detects missing information, validates constraints, and compiles a production-ready engineering specification that can be executed by GPT-5.6, Codex, Cursor, Claude, Gemini, or other AI coding assistants.
 
 ---
 # Why Scalpel?
 
-Modern AI coding assistants are incredibly powerful, but they often fail because users provide incomplete, ambiguous, or contradictory requirements.
+Modern AI coding assistants are incredibly powerful, but they often fail because the user provide incomplete, ambiguous, or contradictory requirements.
 
 Scalpel solves this problem by acting as an intelligent  **Requirements Compiler**.
 
@@ -63,7 +64,7 @@ Scalpel follows a compiler-inspired architecture where each stage has a single r
 
 ---
 
-# Features
+# Core Features
 
 *  Intent Extraction
 *  Functional & Non-Functional Requirement Analysis
