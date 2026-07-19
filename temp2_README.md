@@ -146,7 +146,7 @@ Generates optimized prompts specifically tailored for:
 
 ---
 
-#  Requirement Intelligence
+# 7. Requirement Intelligence
 
 Instead of displaying simple prompt metrics, Scalpel evaluates engineering quality.
 
@@ -164,7 +164,7 @@ Scalability                   89%
 
 ---
 
-#  Example Workflow
+# 8. Example Workflow
 
 ### Input
 
@@ -172,31 +172,29 @@ Scalability                   89%
 Build me a food delivery application.
 ```
 
-### Scalpel Detects
+### 9. Scalpel Detects
 
 * Customer
 * Restaurant
 * Delivery Partner
 * Admin
 
-### Missing Requirements
+### 10. Missing Requirements
 
 * Authentication
 * Payments
 * GPS Tracking
 * Notifications
-* Reviews
-* Refunds
 * Analytics
 * Monitoring
 
-### Output
+### 11. Output
 
 A production-ready engineering specification that can be directly executed by an AI coding assistant.
 
 ---
 
-# Technology Stack
+# 12. Technology Stack
 
 ### Frontend
 
@@ -210,8 +208,26 @@ A production-ready engineering specification that can be directly executed by an
 * FastAPI / Node.js
 * Groq API
 * Llama 3.1 8B Instant
+* BERT
 
-### AI Models
+### 12. File Structure
+We have aimed to keep a relatively simple File Structure:
+
+Backend Folder
+
+- Frontend Folder
+
+- ML folder
+
+- App.py
+
+- Pyhon Utilites
+
+- Mongo DB
+
+- The Server file handle the system in the backend the Python APIs are helping our program to Use t he Utilities
+
+### 13. AI Models
 
 * Groq (Primary Analysis Engine)
 * GPT-5.6 (Execution)
