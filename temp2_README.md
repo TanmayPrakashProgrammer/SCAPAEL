@@ -1,5 +1,14 @@
 # Scalpel — The AI Requirements Compiler
 
+> **Problem Statement:**
+
+Ever since we have shifted to AI coding for companies, it's visible that most of the code which AI generates, isn't very effective. Major reason being, that while the LLM is going through the conversation history, it considers information which is not relevant to the context in which it's supposed to work on, and diverts from what the user actually wants, and hallucinates, thus giving out bad code. 
+
+Industry benchmarks prove that irrelevant context accounts up to 60% to 80% of the total input token costs, driving massive financial waste for businesses running LLMs at scale. 
+
+We have observed this pattern, and we specifically want to save tokens, improve prompting to LLMs, aiming at LLMs becoming better at context filtering, and employing Dynamic LLM routing. 
+
+
 > **Transform vague software ideas to complete, validated, AI-ready engineering specifications.**
 
 Scalpel is a compiler-inspired AI platform which bridges the gap between human intent and AI code generation. Instead of rewriting prompts, Scalpel analyzes the user's intent, extracts the relevant requirements, detects missing information, validates constraints, and compiles a production-ready engineering specification that can be executed by GPT-5.6, Codex, Cursor, Claude, Gemini, or other AI coding assistants.
