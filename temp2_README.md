@@ -1,0 +1,239 @@
+# Scalpel — The AI Requirements Compiler
+
+> **Transform vague software ideas to complete, validated, AI-ready engineering specifications.**
+
+Scalpel is a compiler-inspired AI platform which bridges the gap between human intent and AI code generation. Instead of rewriting prompts, Scalpel analyzes the user's intent, extracts the relevant requirements, detects missing information, validates constraints, and compiles a production-ready engineering specification that can be executed by GPT-5.6, Codex, Cursor, Claude, Gemini, or other AI coding assistants.
+
+---
+# Why Scalpel?
+
+Modern AI coding assistants are incredibly powerful, but they often fail because users provide incomplete, ambiguous, or contradictory requirements.
+
+Scalpel solves this problem by acting as an intelligent  **Requirements Compiler**.
+
+Rather than asking:
+
+> *"How can I improve this prompt?"*
+
+Scalpel asks:
+
+> *"What is the user actually trying to build?"*
+
+The result is a structured engineering specification that improves the quality and consistency of AI-generated software.
+
+---
+
+# How It Works
+
+```
+Human Idea
+      │
+      ▼
+Intent Analysis
+      │
+      ▼
+Requirement Extraction
+      │
+      ▼
+Gap Detection
+      │
+      ▼
+Constraint Validation
+      │
+      ▼
+Specification Builder
+      │
+      ▼
+Prompt Compiler
+      │
+      ▼
+GPT-5.6 / Codex / Cursor / Claude / Gemini
+```
+
+Scalpel follows a compiler-inspired architecture where each stage has a single responsibility, making the system modular, transparent, and reliable.
+
+---
+
+# Features
+
+*  Intent Extraction
+*  Functional & Non-Functional Requirement Analysis
+*  Missing Requirement Detection
+*  Contradiction & Constraint Validation
+*  AI-Ready Engineering Specification Generation
+*  Requirement Completeness Scoring
+*  Security, Testing & Scalability Analysis
+*  Prompt Compilation for Multiple AI Models
+*  Markdown & JSON Export
+*  Powered by Groq + Llama 3.1 8B Instant
+
+---
+
+# Compiler Pipeline
+
+## 1. Intent Extraction
+
+Identifies the user's actual objective instead of simply rewriting text.
+
+## 2. Requirement Parsing
+
+Separates functional and non-functional requirements into structured data.
+
+## 3. Gap Detection
+
+Finds critical information that has not yet been specified.
+
+Examples include:
+
+* Authentication
+* Error Handling
+* Testing
+* Deployment
+* Security
+* Monitoring
+* Logging
+* Documentation
+
+---
+
+## 4. Constraint Validation
+
+Detects:
+
+* conflicting requirements
+* unrealistic expectations
+* impossible combinations
+* missing dependencies
+
+---
+
+## 5. Specification Builder
+
+Creates a complete engineering specification containing:
+
+* Product Overview
+* Architecture
+* Modules
+* APIs
+* Database
+* Security
+* Testing Strategy
+* Deployment Strategy
+* Acceptance Criteria
+
+---
+
+## 6. Prompt Compiler
+
+Generates optimized prompts specifically tailored for:
+
+* GPT-5.6
+* Codex
+* Cursor
+* Claude
+* Gemini
+
+---
+
+#  Requirement Intelligence
+
+Instead of displaying simple prompt metrics, Scalpel evaluates engineering quality.
+
+Example:
+
+```
+Requirement Completeness      94%
+Security                      91%
+Performance                   87%
+Testing                       82%
+Documentation                 78%
+Deployment                    80%
+Scalability                   89%
+```
+
+---
+
+#  Example Workflow
+
+### Input
+
+```
+Build me a food delivery application.
+```
+
+### Scalpel Detects
+
+* Customer
+* Restaurant
+* Delivery Partner
+* Admin
+
+### Missing Requirements
+
+* Authentication
+* Payments
+* GPS Tracking
+* Notifications
+* Reviews
+* Refunds
+* Analytics
+* Monitoring
+
+### Output
+
+A production-ready engineering specification that can be directly executed by an AI coding assistant.
+
+---
+
+# Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+
+### Backend
+
+* FastAPI / Node.js
+* Groq API
+* Llama 3.1 8B Instant
+
+### AI Models
+
+* Groq (Primary Analysis Engine)
+* GPT-5.6 (Execution)
+* Codex (Implementation)
+
+---
+
+# Vision
+
+Scalpel is not a prompt optimizer.
+
+It's an **AI Requirements Compiler**.
+
+Just as a traditional compiler transforms human-written code into machine instructions, Scalpel transforms vague software ideas into structured, validated, AI-ready engineering specifications.
+
+The prompt is not the product.
+
+Understanding intent is.
+
+---
+
+# Future Roadmap
+
+* Multi-Agent Requirement Analysis
+* Requirement Version Control
+* Visual Intent Graph
+* Team Collaboration
+* Requirement Diff Engine
+* API Specification Generation
+* Architecture Diagrams
+* CI/CD Pipeline Generation
+* Automatic Test Generation
+* Enterprise Requirements Management
+
+---
+> **Scalpel doesn't just improve prompts. It compiles human intent into software intelligence.**
