@@ -1,4 +1,4 @@
-from Abstract import Abstraction
+from backend.Abstract import Abstraction
 import time
 
 
